@@ -78,15 +78,12 @@ public class Atividade4 {
 
     public static int[] calcularHistograma(int matriz[][]) {
         int histograma[] = new int[maxValue + 1];
-     
-
         for (int i = 0; i < linha_; i++) {
             for (int j = 0; j < coluna_; j++) {
 
                 histograma[matriz[i][j]] += 1;
             }
         }
-
         return histograma;
     }
 
